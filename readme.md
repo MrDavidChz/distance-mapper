@@ -1,11 +1,9 @@
-Distance Mapper
-Objetivo: Crear una aplicación WEB que calcule la distancia en millas náuticas entre dos aeropuertos de USA.
+
 # Distance Mapper
 
 Objetivo: Crear una aplicación WEB que calcule la distancia en millas náuticas entre dos aeropuertos de USA.
 
 ## Requisitos para la instalación
----------------------------------
 
 - PHP 7
 - COMPOSER
@@ -13,7 +11,7 @@ Objetivo: Crear una aplicación WEB que calcule la distancia en millas náuticas
 - Base de datos MySQL o PostgreSQL
 
 ## Instrucciones para la instalación
-------------------------------------
+
 - Clonar el repositorio a la PC O MAC.
 ```
 git clone https://github.com/MrDavidChz/distance-mapper.git
@@ -51,7 +49,6 @@ php artisan migrate --seed
 
 
 ## Instrucciones para el Usuario
---------------------------------
 
 - Al entrar a la página podrá ver el mapa de Estados Unidos y se verá un punto en forma de avión, este punto representa el Aeropuero de “Renner Field-Goodland Municipal”; se pudo encontrar un total de 778 aeropuertos de la unión americana, solo se muestra este punto en la pagina inicial con la finalidad de optimizar el tiempo de carga. 
 
@@ -81,5 +78,5 @@ php artisan migrate --seed
 ![-](http://oi63.tinypic.com/intour.jpg)
 
 ## Demo
--------
+
 Para ver el funcionamiento de la aplicación WEB, favor de dar clic en [DEMO](http://distance-mapper.herokuapp.com/).
