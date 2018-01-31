@@ -4,7 +4,7 @@
 Objetivo: Crear una aplicación WEB que calcule la distancia en millas náuticas entre dos aeropuertos de USA.
 
 ## Requisitos para la instalación
-
+La aplicación WEB esta realizado con el framework de php LARAVEL, por tal motivo se necesita los siguientes requisitos para visualizar el priyecto.
 - PHP 7
 - COMPOSER
 - Servidor WEB que soporte PHP
