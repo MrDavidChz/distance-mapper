@@ -16,18 +16,19 @@ Objetivo: Crear una aplicación WEB que calcule la distancia en millas náuticas
 ```
 git clone https://github.com/MrDavidChz/distance-mapper.git
 ```
-- Estando en la raíz del proyecto ejecutar el siguiente comando el cual se va encargar de instalar todas las dependencias de nuestro proyecto.
 
 - Dar permisos a la carpeta STORAGE de nuestro proyecto
 ```
 sudo chmod -R 755 storage
 ```
 
+- Estando en la raíz del proyecto ejecutar el siguiente comando el cual se va encargar de instalar todas las dependencias de nuestro proyecto.
+
 ```
 composer install
 ```
 
-- Definiremos los datos de conexión en el archivo de configuración .env que se encuentra en la raíz de nuestro proyecto.
+- Definiremos los datos de conexión a la base de datos en el archivo de configuración .env que se encuentra en la raíz de nuestro proyecto.
 
 Ejemplo:
 ```
@@ -79,4 +80,4 @@ php artisan migrate --seed
 
 ## Demo
 
-Para ver el funcionamiento de la aplicación WEB, favor de dar clic en [DEMO](http://distance-mapper.herokuapp.com/).
+Para ver el funcionamiento de la aplicación WEB, favor de dar clic en [DEMO](https://distance-mapper.herokuapp.com/).
